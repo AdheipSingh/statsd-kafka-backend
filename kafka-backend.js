@@ -99,7 +99,7 @@ let post_stats = function kafka_publish_stats(metricsObject) {
             options.method = 'POST';
             options.headers = {
                 'Content-Length': data.length,
-                'Content-Type': 'application/vnd.kafka.json.v1+json',
+                'Content-Type': 'application/vnd.kafka.json.v2+json',
                 'Accept': 'application/json'
             };
 
